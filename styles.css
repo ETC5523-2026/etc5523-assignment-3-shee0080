@@ -1,4 +1,37 @@
-/* css styles */
+/* Website background */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Navigation bar and title banner */
 .navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+  background-color: #174a6e;
+}
+
+/* Heading colours */
+h1, h2, h3 {
+  color: #174a6e;
+}
+
+/* Navigation text */
+.navbar .nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+/* Link colours */
+a {
+  color: #2471a3;
+}
+
+/* Link hover effect */
+a:hover {
+  color: #154360;
+}
+
+/* Title banner text */
+.quarto-title-banner h1,
+.quarto-title-banner .title {
+  color: white;
 }
