@@ -1,12 +1,18 @@
 /* Website background */
 body {
   background-color: #f8f9fa;
+  font-size: 18px;
   color: #343a40;
 }
 
-/* Navigation bar and title banner */
-.navbar-dark, .quarto-title-banner {
+/* Navigation bar */
+.navbar-dark {
   background-color: #174a6e;
+}
+
+/* Title banner */
+.quarto-title-banner {
+  background-color: #3274a1;
 }
 
 /* Heading colours */

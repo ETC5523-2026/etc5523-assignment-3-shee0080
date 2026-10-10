@@ -1,13 +1,51 @@
 ---
-title: "About"
+title: "Shenyu He"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
+  image-shape: round
+  image-width: 15em
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
-
+      href: https://github.com/shee0080
+    - icon: envelope
+      text: Email
+      href: shee0080@student.monash.edu
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+## My Info
+
+I'm a master of Business Analytics student at Monash University, with an academic background in Network and New media.
+
+I'm interested in exploring how data can be used to understand real-world problems and support better decision-making. My main interests include data analysis, statistical modelling, data visualization, and data storytelling.
+
+Through my studies, I have developed practical experience using R, SQL, Quarto, and GitHub to analyse datasets, create visualizations, and produce reproducible reports.
+
+## Education
+
+**Monash University**
+
+Master of Business Analytics
+
+## Technical Skills
+
+- **Data Analysis:** R, SQL, PYTHON
+
+- **Data Visualization:** ggplot2, Quarto
+
+- **Statistical Analysis:** Regression analysis, exploratory data analysis
+
+- **Reproducible Reporting:** GitHub, Quarto
+
+## Contact
+
+You can connect with me through my GitHub profile.
+
+
+
+
+
+
+
+
