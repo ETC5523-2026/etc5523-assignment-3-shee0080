@@ -1,5 +1,5 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "Welcome to my Portfolio"
 listing:
   contents: posts
   sort: "date desc"
@@ -11,4 +11,10 @@ page-layout: full
 title-block-banner: true
 ---
 
+Welcome to my personal portfolio.
 
+This website showcases my work in data analysis, data visualization and data storytelling.
+
+## Blog Posts
+
+Explore my latest projects and data stories below!
