@@ -11,7 +11,10 @@ about:
       href: https://github.com/shee0080
     - icon: envelope
       text: Email
-      href: shee0080@student.monash.edu
+      href: mailto:shee0080@student.monash.edu
+    - icon: journal-text
+      text: Blog
+      href: posts/welcome/index.qmd
 ---
 
 ## My Info

@@ -5,8 +5,23 @@ body {
   color: #343a40;
 }
 
-/* Navigation bar */
-.navbar-dark {
+/* Blog category labels */
+.quarto-title-banner .quarto-category {
+  color: #ffffff !important;
+  font-size: 1rem !important;
+  font-weight: 600;
+  border: 1px solid #ffffff !important;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* Category labels on hover */
+.quarto-title-banner .quarto-category:hover {
+  background-color: #ffffff;
+  color: #3274a1 !important;
+}
+
+#quarto-header .navbar {
   background-color: #174a6e;
 }
 

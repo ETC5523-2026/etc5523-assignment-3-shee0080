@@ -1,12 +1,41 @@
 ---
-title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
-categories: [news]
+title: "Why Fewer Hospital Infections Don't Always Mean Less Harm"
+author: "Shenyu He"
+date: "2026-10-09"
+categories: [Public Health, Data Analysis]
+image: Umbrella_Corporation_Symbol.webp
+bibliography: ../../references.bib
 ---
 
-This is the first post in a Quarto blog. Welcome!
 
-![](thumbnail.jpg)
+## Are Infection Rates Telling Us the Whole Story?
+
+
+
+## Not All Infections Cause the Same Harm
+
+
+
+
+## Why Germany's Numbers Tell a Different Story
+
+
+
+## How Do Researchers Measure the Harm?
+
+
+
+## What Does This Mean for Hospitals?
+
+
+
+## What Should We Be Careful About?
+
+
+
+## Conclusion
+
+
+
 
 
