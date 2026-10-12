@@ -4,17 +4,21 @@ image: profile.jpg
 about:
   template: trestles
   image-shape: round
-  image-width: 15em
+  image-width: 300px
+  image-alt: "Personal representation of Shenyu He"
   links:
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/shee0080
     - icon: envelope
       text: Email
       href: mailto:shee0080@student.monash.edu
     - icon: journal-text
       text: Blog
-      href: posts/welcome/index.qmd
+      href: https://etc5523-2026.github.io/etc5523-assignment-3-shee0080/posts/welcome/
+body-classes: about-page
+page-layout: full
+toc: false
 ---
 
 ## My Info
@@ -44,11 +48,3 @@ Master of Business Analytics
 ## Contact
 
 You can connect with me through my GitHub profile.
-
-
-
-
-
-
-
-
