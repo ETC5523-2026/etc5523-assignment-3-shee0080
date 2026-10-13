@@ -15,14 +15,6 @@ toc: false
 body-classes: home-page
 ---
 
-::: {.home-intro}
-
-Welcome to my personal portfolio.
-
-This website showcases my work in data analysis, data visualization and data storytelling.
-
-:::
-
 ## Blog Posts
 
-Explore my latest projects and data stories below!
+Why do fewer hospital infections not always mean less harm? Explore my featured blog post to see how infection counts, deaths and healthy life lost offer different perspectives on hospital care.

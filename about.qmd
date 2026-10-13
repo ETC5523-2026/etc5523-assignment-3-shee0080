@@ -21,7 +21,7 @@ page-layout: full
 toc: false
 ---
 
-## My Info
+## My Information
 
 I'm a master of Business Analytics student at Monash University, with an academic background in Network and New media.
 
