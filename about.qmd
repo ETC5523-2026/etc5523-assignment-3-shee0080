@@ -1,6 +1,6 @@
 ---
 title: "Shenyu He"
-image: profile.jpg
+image: IMG_1061.JPG
 about:
   template: trestles
   image-shape: round
