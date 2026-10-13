@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Shenyu He",
+    "section": "",
+    "text": "I’m a master of Business Analytics student at Monash University, with an academic background in Network and New media.\nI’m interested in exploring how data can be used to understand real-world problems and support better decision-making. My main interests include data analysis, statistical modelling, data visualization, and data storytelling.\nThrough my studies, I have developed practical experience using R, SQL, Quarto, and GitHub to analyse datasets, create visualizations, and produce reproducible reports."
+  },
+  {
+    "objectID": "about.html#my-information",
+    "href": "about.html#my-information",
+    "title": "Shenyu He",
+    "section": "",
+    "text": "I’m a master of Business Analytics student at Monash University, with an academic background in Network and New media.\nI’m interested in exploring how data can be used to understand real-world problems and support better decision-making. My main interests include data analysis, statistical modelling, data visualization, and data storytelling.\nThrough my studies, I have developed practical experience using R, SQL, Quarto, and GitHub to analyse datasets, create visualizations, and produce reproducible reports."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Shenyu He",
+    "section": "Education",
+    "text": "Education\nMonash University\nMaster of Business Analytics"
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "Shenyu He",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nData Analysis: R, SQL, PYTHON\nData Visualization: ggplot2, Quarto\nStatistical Analysis: Regression analysis, exploratory data analysis\nReproducible Reporting: GitHub, Quarto"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Shenyu He",
+    "section": "Contact",
+    "text": "Contact\nYou can connect with me through my GitHub profile."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "",
+    "text": "An infection acquired during hospital care can turn a routine admission into a longer stay, lasting illness or even an early death. Preventing these healthcare-associated infections is an important part of patient safety. But how should we judge the size of the problem: by counting infections, or by measuring the harm they cause?\nA lower infection rate sounds reassuring. Yet it does not necessarily mean that less healthy life is lost across a population. Some infections have much more serious consequences than others, and the number of people receiving hospital care also matters.\nA study by Zacher et al. (2019) illustrates both points using Germany’s hospital infection data. Its findings suggest that we need to look beyond infection totals to understand which problems cause the greatest harm—and why a country with a relatively low infection rate can still experience a substantial health burden."
+  },
+  {
+    "objectID": "posts/welcome/index.html#are-infection-rates-telling-us-the-whole-story",
+    "href": "posts/welcome/index.html#are-infection-rates-telling-us-the-whole-story",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "",
+    "text": "An infection acquired during hospital care can turn a routine admission into a longer stay, lasting illness or even an early death. Preventing these healthcare-associated infections is an important part of patient safety. But how should we judge the size of the problem: by counting infections, or by measuring the harm they cause?\nA lower infection rate sounds reassuring. Yet it does not necessarily mean that less healthy life is lost across a population. Some infections have much more serious consequences than others, and the number of people receiving hospital care also matters.\nA study by Zacher et al. (2019) illustrates both points using Germany’s hospital infection data. Its findings suggest that we need to look beyond infection totals to understand which problems cause the greatest harm—and why a country with a relatively low infection rate can still experience a substantial health burden."
+  },
+  {
+    "objectID": "posts/welcome/index.html#not-all-infections-cause-the-same-harm",
+    "href": "posts/welcome/index.html#not-all-infections-cause-the-same-harm",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "Not All Infections Cause the Same Harm",
+    "text": "Not All Infections Cause the Same Harm\nCounting cases tells us how common an infection is. It does not tell us whether that infection leads to a short illness, a lasting disability or an early death.\nTo capture these differences, researchers use disability-adjusted life years, or DALYs. One DALY represents one year of healthy life lost. The measure combines years lost through premature death with time lived in less than full health, allowing researchers to compare the consequences of different infections.\nThe contrast is clear in Figure 1. Bloodstream infections and urinary tract infections caused similar estimated numbers of attributable deaths in Germany, even though there were roughly eight times as many urinary tract infections. The number of cases alone therefore gives an incomplete picture of their consequences.\n\n\n\n\n\n\nFigure 1\n\n\n\n\nHow to read the chart: The horizontal axis shows estimated annual infections and the vertical axis shows attributable deaths in Germany in 2011. Bubble diameter represents DALYs: a wider bubble means more healthy life lost. Bubble area is not proportional to DALYs.\nLabels: BSI = bloodstream infection; UTI = urinary tract infection; HAP = hospital-acquired pneumonia; SSI = surgical site infection; CDI = C. difficile infection.\n\nThe DALY estimates tell a similar story. Urinary tract infections accounted for approximately 45% of cases but 27% of the estimated health burden. Pneumonia and bloodstream infections together accounted for around 28% of cases but 51% of the burden (Zacher et al. 2019).\nThis does not make urinary tract infections unimportant: their large number still produces substantial harm. Instead, it shows why prevention priorities should consider severity alongside frequency. A less common infection can cause a disproportionate share of healthy life lost."
+  },
+  {
+    "objectID": "posts/welcome/index.html#why-germanys-numbers-tell-a-different-story",
+    "href": "posts/welcome/index.html#why-germanys-numbers-tell-a-different-story",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "Why Germany’s Numbers Tell a Different Story",
+    "text": "Why Germany’s Numbers Tell a Different Story\nSeverity helps explain why infection types rank differently. However, it is only part of the story. We also need to consider how many people are exposed to hospital care.\nThe researchers estimated 2.40 infections per 100 hospital patients in Germany, compared with 2.83 across the European Union and European Economic Area (EU/EEA). These are modelled infection incidence estimates, rather than the proportion of patients infected on the survey day.\nDespite the lower estimate among hospital patients, Germany’s estimated population burden was higher: 308.2 DALYs per 100,000 people, compared with 290.0 for the EU/EEA average. Table 1 shows the comparison across the five infection types. Urinary tract and C. difficile infections contributed more health loss per head of population in Germany, while pneumonia contributed less (Zacher et al. 2019).\n\n\n\n\nTable 1: Estimated health burden (DALYs per 100,000 people; median and 95% uncertainty interval).\n\n\n\n\n\n\nInfection type\nGermany\nEU/EEA average\n\n\n\n\nPneumonia\n86.1 (42.1–145.1)\n109.8 (55.3–170.5)\n\n\nUrinary tract\n82.6 (34.5–159.2)\n57.1 (24.3–102.9)\n\n\nBloodstream\n72.2 (38.3–129.0)\n76.2 (52.6–104.8)\n\n\nSurgical site\n35.7 (28.9–43.7)\n35.1 (33.3–36.8)\n\n\nC. difficile\n25.9 (2.5–61.2)\n10.0 (0.9–19.2)\n\n\nAll five types\n308.2 (221.2–416.3)\n290.0 (214.9–376.9)\n\n\n\n\n\n\n\n\nHow can these results coexist? The two measures use different denominators. One describes infections among hospital patients; the other describes healthy life lost relative to the whole population.\nThe authors suggest that Germany’s large hospital patient population helps explain the pattern. A lower infection rate applied to a larger number of hospital stays can still produce substantial harm across the population. This is a plausible explanation for the results, rather than proof that hospital volume alone caused the difference."
+  },
+  {
+    "objectID": "posts/welcome/index.html#how-do-researchers-measure-the-harm",
+    "href": "posts/welcome/index.html#how-do-researchers-measure-the-harm",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "How Do Researchers Measure the Harm?",
+    "text": "How Do Researchers Measure the Harm?\nThese findings depend on converting a snapshot of hospital infections into estimates of their longer-term consequences.\nThe original evidence came from the European Centre for Disease Prevention and Control’s point prevalence survey of acute care hospitals in 2011–2012 (European Centre for Disease Prevention and Control 2013). The representative German sample included 9,626 patients in 46 hospitals. The European comparison included 273,753 patients in 1,149 hospitals, covering 29 EU/EEA countries and Croatia (Zacher et al. 2019).\nThe researchers first used information about hospital stays and infection duration to estimate annual infections from the survey. They then combined those estimates with published probabilities of recovery, disability and death to calculate DALYs.\nTheir method builds on earlier European research (Cassini et al. 2016) and is implemented in the open-source BHAI R package. Repeating the calculations through 1,000 simulations allowed the researchers to describe uncertainty around their estimates.\nThe results discussed here are therefore modelled estimates based on survey data and published evidence, rather than a direct count of every infection or every healthy year lost."
+  },
+  {
+    "objectID": "posts/welcome/index.html#what-does-this-mean-for-hospitals",
+    "href": "posts/welcome/index.html#what-does-this-mean-for-hospitals",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "What Does This Mean for Hospitals?",
+    "text": "What Does This Mean for Hospitals?\nThe study helps answer the questions raised at the beginning: infection counts are useful, but they cannot fully describe harm.\nFor prevention teams, this means considering both how often an infection occurs and how serious its consequences are. Decisions also depend on how preventable an infection is and the resources needed to prevent it; DALYs alone do not determine the best intervention.\nThe Germany–Europe comparison adds another consideration. Alongside hygiene and infection control, the authors argue that reducing avoidable hospital stays could help reduce population exposure to hospital infections. This is an implication for health-system planning, not a reason for patients to avoid necessary treatment.\nFor readers interpreting a hospital safety headline, the practical questions are simpler: What does the statistic measure, and who does it cover? A rate among hospital patients and a burden per head of the general population answer different questions."
+  },
+  {
+    "objectID": "posts/welcome/index.html#what-should-we-be-careful-about",
+    "href": "posts/welcome/index.html#what-should-we-be-careful-about",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "What Should We Be Careful About?",
+    "text": "What Should We Be Careful About?\nThose questions also need a third: How uncertain is the estimate?\nThe overall uncertainty intervals in Table 1 overlap substantially. Germany’s estimate ranges from 221.2 to 416.3 DALYs per 100,000 people, while the EU/EEA estimate ranges from 214.9 to 376.9. The higher German point estimate alone does not establish a clear difference between the two populations.\nThe results also depend on the evidence used to estimate illness and death following infection. The authors describe that underlying literature as sparse and of moderate to low quality. Changing those assumptions could change the estimated burden.\nSample selection matters too. Using a larger German convenience sample increased the estimate from 308.2 to 359.3 DALYs per 100,000, approximately 17%. This illustrates how the hospitals included in a survey can influence the result (Zacher et al. 2019).\nFinally, these are historical estimates based on 2011–2012 data. They help explain how infection statistics should be interpreted, but they cannot tell us today’s risk in Germany or in an Australian hospital."
+  },
+  {
+    "objectID": "posts/welcome/index.html#conclusion",
+    "href": "posts/welcome/index.html#conclusion",
+    "title": "Why Fewer Hospital Infections Don’t Always Mean Less Harm",
+    "section": "Conclusion",
+    "text": "Conclusion\nFewer hospital infections can be good news, but infection counts alone do not tell us how much harm patients experience. Germany’s data illustrates two reasons: infections differ in severity, and the number of hospital stays affects population exposure.\nThe most common infection is therefore not necessarily the one causing the greatest health loss. Likewise, a lower infection rate among hospital patients does not automatically imply a lower burden across the population.\nWhen reading a hospital safety statistic, ask what it measures, who its denominator includes and how uncertain it is. Understanding those details helps us move from simply counting infections to understanding their consequences."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "5523 Shenyu He’s Assignment 3",
+    "section": "",
+    "text": "Why do fewer hospital infections not always mean less harm? Explore my featured blog post to see how infection counts, deaths and healthy life lost offer different perspectives on hospital care."
+  },
+  {
+    "objectID": "index.html#blog-posts",
+    "href": "index.html#blog-posts",
+    "title": "5523 Shenyu He’s Assignment 3",
+    "section": "",
+    "text": "Why do fewer hospital infections not always mean less harm? Explore my featured blog post to see how infection counts, deaths and healthy life lost offer different perspectives on hospital care."
+  }
+]

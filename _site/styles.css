@@ -1,0 +1,179 @@
+/* Base text and colours */
+:root { font-size: 19px; }
+
+body {
+  background-color: #f8f9fa;
+  line-height: 1.55;
+  color: #343a40;
+}
+
+h1, h2, h3 {
+  color: #174a6e;
+  line-height: 1.25;
+}
+
+h1 { font-size: clamp(1.7rem, 2.7vw, 2.15rem); }
+h2 { font-size: 1.5rem; margin-top: 1.8rem; }
+a { color: #2471a3; }
+a:hover { color: #154360; }
+
+/* Navigation and title banner */
+#quarto-header .navbar { background-color: #174a6e; }
+.quarto-title-banner { background-color: #3274a1; }
+
+#quarto-header .nav-link,
+#quarto-header .navbar-brand,
+.quarto-title-banner h1,
+.quarto-title-banner .title {
+  color: #fff;
+}
+
+#quarto-header .navbar-toggler { border-color: rgba(255, 255, 255, 0.6); }
+#quarto-header .navbar-toggler-icon { filter: brightness(0) invert(1); }
+#quarto-search .aa-SubmitIcon { fill: #fff; }
+
+/* Blog references, table and figure guide */
+#quarto-appendix.default { background-color: transparent; }
+#quarto-appendix .quarto-appendix-heading { color: #174a6e; }
+
+#quarto-appendix .quarto-appendix-contents,
+#quarto-appendix #refs,
+.quarto-float-tbl table {
+  font-size: 0.92rem;
+}
+
+.quarto-float-tbl .quarto-float-caption {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.figure-guide {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #3274a1;
+  border-radius: 0 8px 8px 0;
+  background-color: #eaf2f7;
+  font-size: 0.9rem;
+}
+
+.figure-guide p:last-child { margin-bottom: 0; }
+
+/* Page width and homepage card */
+.home-page .quarto-title-banner .quarto-title,
+.home-page main.content,
+.about-page .quarto-about-trestles {
+  width: 100%;
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+.home-page .quarto-title-banner {
+  display: block;
+  padding: 2rem clamp(1rem, 4vw, 3rem);
+}
+
+.home-page main.content { padding-top: 1.5rem; margin-top: 0; }
+
+.home-intro p:first-child {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #174a6e;
+  margin-bottom: 0.4rem;
+}
+
+.home-page #blog-posts h2 { margin-top: 1.2rem; }
+
+.home-page .quarto-grid-item {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.8fr) minmax(0, 1.6fr);
+  border: 1px solid #dce4ea;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(23, 74, 110, 0.08);
+}
+
+.home-page .quarto-grid-item .card-img-top {
+  margin: 0;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.home-page .quarto-grid-item .thumbnail-image {
+  width: 100%;
+  height: 100% !important;
+  min-height: 280px;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+.home-page .quarto-grid-item .card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.home-page .listing-title {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #174a6e;
+}
+
+.home-page .listing-description { font-size: 1rem; line-height: 1.55; }
+
+.home-page .card-attribution {
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #e1e7ec;
+  gap: 1rem;
+}
+
+.home-page .quarto-grid-link:hover .quarto-grid-item { border-color: #3274a1; }
+
+/* About page: Quarto's trestles template */
+.about-page div.quarto-about-trestles .about-image { max-width: min(260px, 100%); max-height: 260px; }
+.about-page div.quarto-about-trestles .title { font-size: 1.8rem; }
+
+.about-page div.quarto-about-trestles .about-links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.about-page div.quarto-about-trestles .about-link {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid #3274a1;
+  border-radius: 6px;
+  color: #174a6e;
+  background-color: #fff;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.about-page div.quarto-about-trestles .about-link:hover {
+  color: #fff;
+  background-color: #174a6e;
+}
+
+.about-page .about-contents > main > section:first-child > h2 { margin-top: 0; }
+
+/* Smaller screens */
+@media (max-width: 767px) {
+  :root { font-size: 17px; }
+  .home-page .quarto-title-banner { padding: 1.5rem 1rem; }
+  .home-page .quarto-grid-item { grid-template-columns: 1fr; }
+
+  .home-page .quarto-grid-item .thumbnail-image {
+    height: 220px !important;
+    min-height: 0;
+  }
+
+  .home-page .quarto-grid-item .card-body { padding: 1.2rem; }
+  .quarto-float-tbl table { font-size: 0.85rem; }
+}
